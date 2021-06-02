@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("../font/lato/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato Italic";
+    src: url("../font/lato/Lato-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url(../font/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url("../font/lato/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato Thin";
+    src: url("../font/lato/Lato-Thin.ttf");
+}
+.umumiy {
+    margin: 0 auto;
+    width: 1600px;
+}
+.page {
+    height: 880px;
+    width: 1600px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 880px contain;
+    /* background-position: left; */
+    padding-left: 209px;
+    padding-right: 210px;
+    /* display: flex; */
+    color: #fff;
+}
+.page .nav a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 27px;
+    font-family: "Lato Bold";
+    text-decoration: none;
+    vertical-align: top;
+    margin-top: 47px;
+}
+.nav img {
+    margin-top: 18px;
+}
+.nav {
+    margin-bottom: 260px;
+}
+.login {
+    margin-left: 840px;
+}
+.find {
+    margin-left: 444px;
+    font-family: "Lato Italic";
+    font-size: 36px;
+    margin-bottom: 27px;
+}
+.recipes {
+    margin-left: 384px;
+    font-family: "Lato Bold";
+    font-size: 100px;
+    margin-bottom: 38px;
+}
+.button-1 {
+    margin-bottom: 40px;
+    margin-left: 451px;
+    width: 280px;
+    height: 70px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: "Lato Bold";
+    font-size: 28px;
+    outline-style: none;
+    border-radius: 5px;
+}
+.button-1:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .6), -5px -5px 15px rgba(0, 0, 0, .6);
+}
+.page p {
+    font-family: "Lato Regular";
+    /* margin-left: 384px; */
+    font-size: 14px;
+}
+.container {
+    height: 435px;
+    background-color: #fff;
+    width: 1182px;
+    padding-left: 130px;
+    padding-top: 98px;
+    display: flex;
+}
+.container i {
+    height: 104px;
+    width: 104px;
+    font-size: 50px;
+    color: red;
+    border: 2px solid black;
+    border-radius: 54px;
+    line-height: 104px;
+    text-align: center;
+    margin-left: 126px;
+    margin-bottom: 20px;
+}
+
+.block-1 {
+    width: 361px;
+    /* border: 2px solid green; */
+    margin-right: 37px;
+}
+.container .block-1 h3 {
+    margin-bottom: 20px;
+    margin-left: 126px;
+    /* border-bottom: 1px solid red; */
+}
+.container .block-1 p {
+    font-family: "Lato Light";
+    text-align: center;
+}
+
+.about {
+    height: 880px;
+    width: 1600px;
+    background-color: #F7F7F7;
+    padding-left: 214px;
+    padding-top: 100px;
+    display: flex;
+}
+.rasm {
+    /* border: 2px solid red; */
+    margin-right: 135px;
+}
+.iphone-fon {
+    object-fit: cover;
+    margin-left: -486px;
+}
+.lorem {
+    width: 520px;
+    margin-top: 184px;
+}
+.lorem span {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.lorem h2 {
+    font-family: "Lato Bold";
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.lorem p {
+    font-family: "Lato Light";
+}
+
+.contact {
+    width: 1600px;
+    height: 460px; 
+    
+    /* background-color: rgba(77, 61, 76, 0.8); */
+
+    background-image: linear-gradient(rgba(77, 61, 76, 0.8), rgba(77, 61, 76, 0.8) ), url(../img/background-2.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-left: 350px;
+    font-family: "Lato Thin";
+    padding-top: 77px;
+}
+.people {
+    margin-left: 396px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact-me {
+    width: 895px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    /* background-color:  rgba(77, 61, 76, 0.8); */
+}
+
+.contact-me-2 {
+    font-size: 18px;
+}
+.dotted {
+    /* background-color: rgba(77, 61, 76, 0.8); */
+    font-size: 10px;
+    margin-left: 420px;
+    display: inline-block;
+    color: #fff;
+}
+.blog {
+    height: 161px;
+    width: 1600px;
+    background-color: #fff;
+    padding-top: 98px;
+    padding-left: 490px;
+    font-family: "Lato Bold";
+    font-size: 18px;
+}
+.footer {
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.food {
+    /* display: flex; */
+    width: 318px;
+    height: 219px;
+    background-image: url("../img/lagman.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: 318px 219px contain;
+    padding-top: 24px;
+}
+
+.food p {
+    display: block;
+    font-size: 16px;
+    font-family: "Lato Italic";
+    color: #fff;
+    margin-left: 117px;
+    /* border: 1px solid green; */
+    margin-top: 75px;
+}
+
+.food h2 {
+    display: block;
+    color: #fff;
+    font-family: "Lato Bold";
+    font-size: 24px;
+    margin-left: 85px;
+    /* border: 1px solid red; */
+}
+
+.foot {
+    width: 1600px;
+    height: 174px;
+    padding-left: 208px;
+    padding-top: 58px;
+    display: flex;
+}
+.div-1 {
+    margin-right: 130px;
+}
+.div-1 p {
+    font-family: "Lato Light";
+}
+
+.footer-1 {
+    height: 92px;
+    width: 1600px;
+    background-color: #f7f7f7;
+    padding-left: 208px;
+    padding-top: 40px;
+    padding-right: 290px;
+}
+
+.fudi {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Lato Light";
+}
+.design {
+    font-size: 14px;
+    font-family: "Lato Light";
+    float: right;
+}
+p span {
+    font-size: 14px;
+    font-family: "Lato Regular";
+    float: right;
+}
